@@ -10,6 +10,7 @@ body {
   align-items: center;
   background-color: #85FFBD;
   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  overflow: hidden;
 }
 
 #title {
@@ -24,8 +25,10 @@ body {
   margin: -4rem;
 }
 
-#subtitle {
+#subtitle p {
   font-size: 10rem;
+  padding: 0;
+  margin: 0;
 }
 
 a {
